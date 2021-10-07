@@ -4,9 +4,9 @@
 **Step 3. Clean image.</br>**
 **Step 4. Call request google-ocr api.** (include:text-detection & text-recognization </br>
 **Step 5. Detect transaction line.</br>**
-![processing-step](https://user-images.githubusercontent.com/24487114/136381548-0e7daab6-a3aa-41d4-bdc7-bb57ed6b76b6.gif) (red)</br>
+![processing-step-boder](https://user-images.githubusercontent.com/24487114/136387897-961d28ec-c064-4191-b135-836cfaf3753e.gif) </br> </br>
 **Step 6. Read transactions content in image.</br>**
-![read-transactions](https://user-images.githubusercontent.com/24487114/136383334-5ff62fca-1d5e-4118-b07c-111e40948bac.gif) </br>
+![read-transactions-border](https://user-images.githubusercontent.com/24487114/136387974-751258bc-8ed1-4388-ad41-b176a9ec16c8.gif) </br> </br>
 **Step 7. Save transactions content to csv.</br>**
 |TNX Date  |Doc No     |Debit|Credit    |Balance|Transaction in detail                                                                                                                |(note)|
 |----------|-----------|-----|----------|-------|-------------------------------------------------------------------------------------------------------------------------------------|------|
