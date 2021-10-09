@@ -1,4 +1,10 @@
-# transaction_ocr
+# Transaction OCR
+## 1. Repair data input
+### Download raw data
+- Download raw pdf files from Drive link: https://drive.google.com/drive/folders/1SoWOGaAy92tZUgG7mwhJzoeBsDpxVO80?usp=sharing
+- Extra & save it into your storage </br>
+### convert pdf files to image
+## 2. Extract transaction information
 **Step 1. Find header & footer. </br>** 
 **Step 2. Re-rotate image based on header-corner.</br>**
 **Step 3. Clean image.</br>**
@@ -22,3 +28,4 @@
 |13/10/2020|5078.68537 |     |500.000   |       |MBVCB.807034561.Ung ho Mien trung.CT tu 0721000588146 LE THI HONG DIEM toi 0181003469746 TRAN THI THUY TIEN                          |page_1|
 |13/10/2020|5091.56405 |     |200.000   |       |292363.131020.075845.Ngan hang TMCP Ngoai Thuong Viet Nam 0181003469746 LUC NGHIEM LE chuyen khoan ung ho mien trung                 |page_1|
 |13/10/2020|5091.56410 |     |500.000   |       |479627.131020.075913.Ung ho mien trung     |page_1|
+## 3. Export csv to Excel 
