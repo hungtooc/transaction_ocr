@@ -27,15 +27,34 @@ optional arguments:
 ```
 
 ## 2. Extract transaction information
-**Step 1. Find header & footer. </br>** 
-**Step 2. Re-rotate image based on header-corner.</br>**
-**Step 3. Clean image.</br>**
-**Step 4. Call request google-ocr api.** (include:text-detection & text-recognization </br>
-**Step 5. Detect transaction line.</br>**
+```
+python run.py 
+```
+```
+usage: run.py [-h] [--image-dir IMAGE_DIR] [--output-respone-dir OUTPUT_RESPONE_DIR] [--output-content-dir OUTPUT_CONTENT_DIR] [--processed-log-file PROCESSED_LOG_FILE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --image-dir IMAGE_DIR
+                        dir to images
+  --output-respone-dir OUTPUT_RESPONE_DIR
+                        dir to save api respone
+  --output-content-dir OUTPUT_CONTENT_DIR
+                        dir to save transaction content
+  --processed-log-file PROCESSED_LOG_FILE
+                        path to log file
+```
+#### File `run.py` perform 7 main stages: 
+- Step 1. Find header & footer. </br>
+- Step 2. Re-rotate image based on header-corner.</br>
+- Step 3. Clean image.</br>
+- Step 4. Call request google-ocr api. (include:text-detection & text-recognization </br>
+- Step 5. Detect transaction line.</br>
 ![processing-step-boder](https://user-images.githubusercontent.com/24487114/136387897-961d28ec-c064-4191-b135-836cfaf3753e.gif) </br> </br>
-**Step 6. Read transactions content in image.</br>**
+- Step 6. Classify transaction content each line & each content type.</br>
 ![read-transactions-border](https://user-images.githubusercontent.com/24487114/136387974-751258bc-8ed1-4388-ad41-b176a9ec16c8.gif) </br> </br>
-**Step 7. Save transactions content to csv.</br>**
+- Step 7. Save transactions content to csv. </br>
+
 |TNX Date  |Doc No     |Debit|Credit    |Balance|Transaction in detail                                                                                                                |(note)|
 |----------|-----------|-----|----------|-------|-------------------------------------------------------------------------------------------------------------------------------------|------|
 |13/10/2020|5091.55821 |     |100.000   |       |586062.131020.075756.Ung ho mien trung FT20287151644070                                                                              |page_1|
