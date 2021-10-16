@@ -69,4 +69,21 @@ optional arguments:
 |13/10/2020|5078.68537 |     |500.000   |       |MBVCB.807034561.Ung ho Mien trung.CT tu 0721000588146 LE THI HONG DIEM toi 0181003469746 TRAN THI THUY TIEN                          |page_1|
 |13/10/2020|5091.56405 |     |200.000   |       |292363.131020.075845.Ngan hang TMCP Ngoai Thuong Viet Nam 0181003469746 LUC NGHIEM LE chuyen khoan ung ho mien trung                 |page_1|
 |13/10/2020|5091.56410 |     |500.000   |       |479627.131020.075913.Ung ho mien trung     |page_1|
-## 3. Export csv to Excel 
+## 3. Export Excel
+Export each csv directory to an excel file. Example:
+```
+python tools/export-excel.py --csv-dir "data/content/TÀI KHOẢN XXX746 (Pass_ Vcbsaoke@2021)/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf"
+```
+```
+usage: export-excel.py [-h] --csv-dir CSV_DIR [--output-dir OUTPUT_DIR] [--transaction-template TRANSACTION_TEMPLATE] [--filename FILENAME]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --csv-dir CSV_DIR     csv dir
+  --output-dir OUTPUT_DIR
+                        output dir
+  --transaction-template TRANSACTION_TEMPLATE
+                        dir to save transaction content
+  --filename FILENAME   output filename, leave blank to set default
+
+```
