@@ -136,13 +136,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/utils/fixes/page_1374.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
