@@ -1,9 +1,31 @@
 # Transaction OCR
 ## 1. Repair data input
-### Download raw data
+### 1.1 Download raw data
 - Download raw pdf files from Drive link: https://drive.google.com/drive/folders/1SoWOGaAy92tZUgG7mwhJzoeBsDpxVO80?usp=sharing
-- Extra & save it into your storage </br>
-### convert pdf files to image
+- Extra & put it in **data/input** </br>
+### 1.2 Convert pdf files to image
+PDF password:   `Vcbsaoke@2021`
+``` 
+python tools/pdf-to-images.py --pdf-password Vcbsaoke@2021
+```
+```
+usage: pdf-to-images.py [-h] [--pdf-dir PDF_DIR] [--output-dir OUTPUT_DIR] [--pdf-password PDF_PASSWORD] [--from-page-no FROM_PAGE_NO] [--to-page-no TO_PAGE_NO] [--fix-page-number FIX_PAGE_NUMBER]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --pdf-dir PDF_DIR     dir to pdf files
+  --output-dir OUTPUT_DIR
+                        dir to save images
+  --pdf-password PDF_PASSWORD
+                        pdf password
+  --from-page-no FROM_PAGE_NO
+                        extra image from page
+  --to-page-no TO_PAGE_NO
+                        extra image to page
+  --fix-page-number FIX_PAGE_NUMBER
+                        fix page number (page_no += fix_page_number)
+```
+
 ## 2. Extract transaction information
 **Step 1. Find header & footer. </br>** 
 **Step 2. Re-rotate image based on header-corner.</br>**
