@@ -98,3 +98,20 @@ optional arguments:
   --filename FILENAME   output filename, leave blank to set default
 
 ```
+## 4. Extract dataset
+From api responed data, you can extract dataset to train **text-recognization** model:
+```
+ python tools/export-dataset.py 
+```
+```
+usage: extract-dataset.py [-h] [--respone-dir RESPONE_DIR] [-a OUTPUT_ANNOTATION] [-i OUTPUT_IMAGE_DIR]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --respone-dir RESPONE_DIR
+                        dir to api respone
+  -a OUTPUT_ANNOTATION, --output-annotation OUTPUT_ANNOTATION
+                        path to save annotation file
+  -i OUTPUT_IMAGE_DIR, --output-image-dir OUTPUT_IMAGE_DIR
+                        path to save annotation file
+```
