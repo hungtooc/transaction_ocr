@@ -115,5 +115,6 @@ optional arguments:
   -i OUTPUT_IMAGE_DIR, --output-image-dir OUTPUT_IMAGE_DIR
                         path to save annotation file
 ```
+- Dataset of first 1000 pages lalebed by google-ocr (~336k): [Google Drive](https://drive.google.com/file/d/18TNR5iMF9Cj3miLQu0DNGFwt8AgkEq_2/view?usp=sharing) 
 ## 5. Result
-18107 transaction statement pages have been extracted from pdf format: [on Drive](https://drive.google.com/drive/folders/1NaJYoP2aohIk-NvUfy79JAQbuNlu_OeE) - Accuracy >99%.
+18107 transaction statement pages have been extracted from pdf format: [Google Drive](https://drive.google.com/drive/folders/1NaJYoP2aohIk-NvUfy79JAQbuNlu_OeE) - Accuracy >99%.
