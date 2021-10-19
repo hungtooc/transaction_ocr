@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ## 1. Repair data input
 ### 1.1 Download raw data
 - Download raw pdf files from Drive link: https://drive.google.com/drive/folders/1SoWOGaAy92tZUgG7mwhJzoeBsDpxVO80?usp=sharing
-- Extra & put it in **data/input** </br>
+- Extract & put it in **data/input** </br>
 ### 1.2 Convert pdf files to image
 PDF password:   `Vcbsaoke@2021`
 ``` 
