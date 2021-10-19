@@ -64,7 +64,7 @@ def googleocr(image_path, client, issort=True):
     cvimage = vision.Image(content=content)
     # call api google ocr. return
     response = client.text_detection(image=cvimage)
-    print("--- google excution time in %s seconds ---" % (time.time() - start_time))
+    # print("--- google excution time in %s seconds ---" % (time.time() - start_time))
     # start_time = time.time()
     # print("response.text_annotations", response.text_annotations)
     # save log

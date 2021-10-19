@@ -45,7 +45,6 @@ def ObjectMatching(image: object, template, detector):
     p1, p2, kp_pairs = filter_matches(kpts1, kpts2, matches)
     if len(p1) >= 4:
         H, status = cv.findHomography(p1, p2, cv.RANSAC, 5.0)
-        print('%d / %d  inliers/matched' % (np.sum(status), len(status)))
     else:
         H, status = None, None
         print('%d matches found, not enough for homography estimation' % len(p1))

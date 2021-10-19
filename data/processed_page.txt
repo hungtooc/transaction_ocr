@@ -1,2 +1,11 @@
 data/data-raw/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_1.jpg
 data/data-raw/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_2.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_1.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_2.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_3.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_4.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_5.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_6.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_7.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_8.jpg
+data/images/TỪ 13.10.20 ĐẾN 23.11.20/1. TRANG 1 -1000.pdf/page_9.jpg
