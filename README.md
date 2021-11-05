@@ -1,5 +1,5 @@
 # Transaction OCR
-Mã nguồn trích xuất thông tin transaction từ file scaned pdf, ở đây tôi lựa chọn tài liệu sao kê công khai của Thuy Tien. Mã nguồn có thể ứng dụng để giải quyết bài toán liên quan đến trích xuất thông tin văn bản từ hình ảnh (OCR - _Optical Character Recognition_) có cấu trúc nội dung xác định và với độ dài các dòng thông tin (row) bất kì như thông tin giao dịch, hóa đơn mua hàng,... Mã nguồn lựa chọn **Cloud Vision API** đại diện cho OCR model để có được độ chính xác cao, hoặc bạn có thể sử dụng model có sẵn như [Vietocr](https://github.com/pbcquoc/vietocr) hoặc có thể tự build custom OCR tiếng Việt từ [**clovaai**](https://github.com/clovaai): [text-detection](https://github.com/clovaai/CRAFT-pytorch) và [text-recognization](https://github.com/clovaai/deep-text-recognition-benchmark)) mà tôi cho là khá tốt.
+Mã nguồn trích xuất thông tin transaction từ file scaned pdf, ở đây tôi lựa chọn tài liệu sao kê công khai của Thuy Tien. Mã nguồn có thể ứng dụng để giải quyết bài toán liên quan đến trích xuất thông tin văn bản từ hình ảnh (OCR - _Optical Character Recognition_) có cấu trúc nội dung xác định và với độ dài các dòng thông tin (row) bất kì như thông tin giao dịch, hóa đơn mua hàng,... Mã nguồn lựa chọn **Cloud Vision API** đại diện cho OCR model để có được độ chính xác cao, hoặc bạn có thể sử dụng model có sẵn như [Vietocr](https://github.com/pbcquoc/vietocr) hoặc có thể tự build custom OCR tiếng Việt từ [**clovaai**](https://github.com/clovaai): [text-detection](https://github.com/clovaai/CRAFT-pytorch) và [text-recognition](https://github.com/clovaai/deep-text-recognition-benchmark)) mà tôi cho là khá tốt.
 ## Getting Started
 ### Dependency
 - [Google cloud api | Cloud Vision API](https://cloud.google.com/vision/)
@@ -59,7 +59,7 @@ optional arguments:
 - Step 1. Find header & footer. </br>
 - Step 2. Re-rotate image based on header-corner.</br>
 - Step 3. Clean image.</br>
-- Step 4. Call request google-ocr api. (include:text-detection & text-recognization </br>
+- Step 4. Call request google-ocr api. (include:text-detection & text-recognition </br>
 - Step 5. Detect transaction line.</br>
 ![processing-step-boder](https://user-images.githubusercontent.com/24487114/136387897-961d28ec-c064-4191-b135-836cfaf3753e.gif) </br> </br>
 - Step 6. Classify transaction content each line & each content type.</br>
