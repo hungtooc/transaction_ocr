@@ -1,5 +1,5 @@
 # Transaction OCR
-Mã nguồn trích xuất thông tin transaction từ file scaned pdf, ở đây tôi lựa chọn tài liệu sao kê công khai của Thuy Tien. Mã nguồn có thể ứng dụng để giải quyết bài toán liên quan đến trích xuất thông tin văn bản từ hình ảnh (OCR - _Optical Character Recognition_) có cấu trúc nội dung xác định và với độ dài các dòng thông tin (row) bất kì như thông tin giao dịch, hóa đơn mua hàng,... Mã nguồn lựa chọn **Cloud Vision API** đại diện cho OCR model để có được độ chính xác cao, hoặc bạn có thể sử dụng model có sẵn như [Vietocr](https://github.com/pbcquoc/vietocr) hoặc có thể tự build custom OCR tiếng Việt từ [**clovaai**](https://github.com/clovaai): [text-detection](https://github.com/clovaai/CRAFT-pytorch) và [text-recognition](https://github.com/clovaai/deep-text-recognition-benchmark)) mà tôi cho là khá tốt.
+Extract transaction infomation from scaned pdf. I used statement document statement document of Thuy Tien for example. The source code not included OCR model, instead, I used google OCR services to have best performance. Feel free to become Contributors!
 ## Getting Started
 ### Dependency
 - [Google cloud api | Cloud Vision API](https://cloud.google.com/vision/)
